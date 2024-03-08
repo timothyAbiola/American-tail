@@ -31,6 +31,9 @@ form {
   flex-direction: column;
   gap: 20px;
 }
+input {
+  padding-left: 40px;
+}
 .input-holder {
   position: relative;
 
@@ -50,9 +53,6 @@ form {
   position: absolute;
   top: 17px;
   left: 15px;
-}
-.f-input::placeholder {
-  padding-left: 40px;
 }
 .s-input {
   display: flex;
